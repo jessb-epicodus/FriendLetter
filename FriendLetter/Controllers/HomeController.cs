@@ -17,7 +17,7 @@ namespace FriendLetter.Controllers
       myLetterVariable.Recipient = "Lina";
       myLetterVariable.Sender = "Jasmine";
       myLetterVariable.Location = "Iceland";
-      myLetterVariable.Souvenir = "Polar-Bear claw necklace";
+      myLetterVariable.Souvenir = "Polar-Bear rug";
       return View(myLetterVariable); 
     } 
     [Route("/form")]
